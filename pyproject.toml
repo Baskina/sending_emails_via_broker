@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["baskina <katyabaskina@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pika = "^1.3.2"
+mongoengine = "^0.28.2"
+faker = "^24.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
